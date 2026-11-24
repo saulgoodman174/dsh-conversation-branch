@@ -1,0 +1,2 @@
+PASS A1-A3: six messages; user and assistant branches; inclusive prefix, source and both drafts verified
+PASS A4-A5: refreshed child, observed seed seq 3, one user message and identical deriveMessages()[0] text; errors and page exceptions checked

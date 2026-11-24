@@ -1,0 +1,8 @@
+runtime: v24.22.1 @deepseek-ai/dsh-web-app 0.2.1-rc.3
+seq after create: 1
+initial events: [{"type":"session/end-seed","seq":0,"time":1795517040697,"data":{}}]
+seq after user append: 2 messages: [{"role":"user","content":[{"type":"text","text":"导出的上下文片段"}],"source":{"kind":"user","rpcId":"ef2ab41b-877a-499d-ad7c-4cad18735c4c","clientTimeZone":"UTC"},"id":"9864a884-e7ec-4e86-a975-7c6d639aa0b0"}]
+seq after assistant append: 3 messages: [{"role":"user","content":[{"type":"text","text":"导出的上下文片段"}],"source":{"kind":"user","rpcId":"ef2ab41b-877a-499d-ad7c-4cad18735c4c","clientTimeZone":"UTC"},"id":"9864a884-e7ec-4e86-a975-7c6d639aa0b0"},{"role":"assistant","content":[{"type":"text","text":"助手回复"}],"source":{"kind":"model","provider":"fixture","model":"fixture"},"id":"626e09e9-9755-4c04-98fb-558ee87aa25a"}]
+surface nodes: [1,2]
+PASS: seed marker, append positions, surface and derived messages
+exit code: 0

@@ -1,0 +1,8 @@
+Visible page: HARNESS
+Failed to load plugins
+web boot: 1 entry did not activate
+dsh-rewind-rpc-spike: pending (waiting for service: remote.rewind)
+FAIL: page.waitForEvent: Timeout 45000ms exceeded while waiting for event "console"
+=========================== logs ===========================
+waiting for event "console"
+============================================================
